@@ -22,7 +22,7 @@ The data belongs to collaborators. It essentially consists of single channel pat
 
 ## Source.
 
-The single python program, MLE.py uses:
+The single python program, MLE.py uses following dynamic programming algorithms I implemented from scratch:
 * Data analysis to estimate number of ion channels in the patch, data standard deviation, and transition matrix eigenvalue.
 * Emission matrix and forward/backward algorithm to estimate transition matrix from data.
 * Viterbi algorithm to estimate the most likely transition sequence.
