@@ -8,7 +8,8 @@ Recordings of a few ion channels' electrical activity on cell (smooth muscle cel
 
 # Dependencies.
 
-Python3.
+This algorithm works on python3. Since ion channel recordings are often saved using proprietary software, the files may need to be 
+read using suitable library. For examply, abf files created by the patch clamp rig here in UWO labs needs the use of pyABF library.
 
 # Install.
 
